@@ -1,0 +1,9 @@
+weight_fileName: trained_weight.txt
+bias_fileName: trained_bias.txt
+input_fileName: new_Input.txt
+NumOfInputs 2 
+NumOfOutputs 1
+NumOfSamples 3
+NumOfHiddenLayers 2
+NumOfNeuronsPerHiddenLayer 3
+3

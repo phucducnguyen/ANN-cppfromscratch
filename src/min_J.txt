@@ -1,0 +1,5 @@
+Iter: 1 Minimum Cost: 0.560885
+Iter: 2 Minimum Cost: 0.542813
+Iter: 3 Minimum Cost: 0.5256
+Iter: 4 Minimum Cost: 0.509189
+Iter: 5 Minimum Cost: 0.493528

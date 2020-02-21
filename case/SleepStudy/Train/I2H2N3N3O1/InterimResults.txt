@@ -1,0 +1,453 @@
+		*** BUILDING INSTANCE STRUCTURE ***
+	*** Process Begins ***
+No of Iteration: 	5
+Learning Rate: 	0.025
+No of Inputs: 	2
+No of Outputs: 	1
+No of Samples: 	3
+No of HLayers: 	2
+HiddenLayer: 1 has 3 neuron(s) 
+HiddenLayer: 2 has 3 neuron(s) 
+		*** INSTANCE STRUCTURE CREATED ***
+	*** Process Ends ***
+
+		*** PROCESSING INPUT DATA ***
+	*** Process Begins ***
+Maxtrix X: 
+3  5 
+5  1 
+10 2 
+Maxtrix Y: 
+75 
+82 
+93 
+*** SAMPLE INPUT AND OUTPUT VALUES POPULATED ***
+	*** Process Ends ***
+
+		*** INITIALIZING WEIGHT AND BIAS ***
+	*** Process Begins ***
+Weights[0][0][0]= 0.0784552	Weights[0][0][1]= 0.133397	Weights[0][0][2]= 0.0862613	
+Weights[0][1][0]= 0.115013	Weights[0][1][1]= 0.0444748	Weights[0][1][2]= 0.0147924	
+Weights[1][0][0]= 0.0779995	Weights[1][0][1]= 0.151923	Weights[1][0][2]= 0.188694	
+Weights[1][1][0]= 0.00957634	Weights[1][1][1]= 0.139432	Weights[1][1][2]= 0.169263	
+Weights[1][2][0]= 0.00602528	Weights[1][2][1]= 0.0127679	Weights[1][2][2]= 0.160564	
+Weights[2][0][0]= 0.106334	
+Weights[2][1][0]= 0.177293	
+Weights[2][2][0]= 0.0985739	
+		*** WEIGHTS RANDOMIZED ***
+Bias[0][0][0]= 0	Bias[0][0][1]= 0	Bias[0][0][2]= 0	
+Bias[1][0][0]= 0	Bias[1][0][1]= 0	Bias[1][0][2]= 0	
+Bias[2][0][0]= 0	
+		*** BIAS INITIALIZED ***
+		*** BIAS ARE CREATED and POPULATED ***
+	*** Process Ends ***
+
+		*****ITERATION: 1 *****
+
+		*** FORWARD PROPAGATION ***
+	*** Process Begins ***
+Matrix W at layer 0 :
+0.0784552 0.133397  0.0862613 
+0.115013  0.0444748 0.0147924 
+
+Matrix B at layer 0 :
+0 0 0 
+0 0 0 
+0 0 0 
+
+Matrix H at layer 0 :
+0.115013  0.0444748 0.0147924 
+0.0224158 0.0381134 0.0246461 
+0.107209  0.144516  0.0899594 
+
+Matrix W at layer 1 :
+0.0779995  0.151923  0.188694 
+0.00957634 0.139432  0.169263 
+0.00602528 0.0127679 0.160564 
+
+Matrix B at layer 1 :
+0 0 0 
+0 0 0 
+0 0 0 
+
+Matrix H at layer 1 :
+0.00948601 0.0238633  0.0316054 
+0.00226191 0.00903438 0.0146382 
+0.0102882  0.0375861  0.059135  
+
+Matrix W at layer 2 :
+0.106334  
+0.177293  
+0.0985739 
+
+Matrix B at layer 2 :
+0 
+0 
+0 
+
+Matrix H at layer 2 :
+0.00835493 
+0.00328519 
+0.0135869  
+
+	*** Process Ends ***
+
+		*** COST OF THE FUNCTION ***
+	*** Process Begins ***
+Cost of the Function = 0.560885
+*** COST OF FUNCTION IS CALCULATED ***
+	*** Process Ends ***
+
+		*** BACK PROPAGATION ***
+		*** WEIGHT AND BIAS UPDATING ***
+	*** Process Begins ***
+	Update Bias at layer: 2
+ Bias[2][0][0] = 0.0113638	
+	Update Weight at layer: 2
+ Weights[2][0][0] = 0.106607	
+ Weights[2][1][0] = 0.178302	
+ Weights[2][2][0] = 0.100167	
+	Update Bias at layer: 1
+ Bias[1][0][0] = 0.00120836	 Bias[1][0][1] = 0.00201473	 Bias[1][0][2] = 0.00112018	
+	Update Weight at layer: 1
+ Weights[1][0][0] = 0.0783011	 Weights[1][0][1] = 0.152426	 Weights[1][0][2] = 0.188974	
+ Weights[1][1][0] = 0.00999337	 Weights[1][1][1] = 0.140127	 Weights[1][1][2] = 0.169649	
+ Weights[1][2][0] = 0.00628611	 Weights[1][2][1] = 0.0132027	 Weights[1][2][2] = 0.160806	
+	Update Bias at layer: 0
+ Bias[0][0][0] = 0.000611707	 Bias[0][0][1] = 0.000482093	 Bias[0][0][2] = 0.000212865	
+	Update Weight at layer: 0
+ Weights[0][0][0] = 0.0942905	 Weights[0][0][1] = 0.145877	 Weights[0][0][2] = 0.0917718	
+ Weights[0][1][0] = 0.118131	 Weights[0][1][1] = 0.0469318	 Weights[0][1][2] = 0.0158772	
+		*** WEIGHTS AND BIAS ARE UPDATED ***
+	*** Process Ends ***
+
+		*****ITERATION: 2 *****
+
+		*** FORWARD PROPAGATION ***
+	*** Process Begins ***
+Matrix W at layer 0 :
+0.0942905 0.145877  0.0917718 
+0.118131  0.0469318 0.0158772 
+
+Matrix B at layer 0 :
+0.000611707 0.000482093 0.000212865 
+0.000611707 0.000482093 0.000212865 
+0.000611707 0.000482093 0.000212865 
+
+Matrix H at layer 0 :
+0.118743  0.0474139 0.0160901 
+0.0275519 0.0421612 0.0264334 
+0.124435  0.158092  0.095954  
+
+Matrix W at layer 1 :
+0.0783011  0.152426  0.188974 
+0.00999337 0.140127  0.169649 
+0.00628611 0.0132027 0.160806 
+
+Matrix B at layer 1 :
+0.00120836 0.00201473 0.00112018 
+0.00120836 0.00201473 0.00112018 
+0.00120836 0.00201473 0.00112018 
+
+Matrix H at layer 1 :
+0.011081  0.0269706 0.0341905 
+0.0039532 0.0124713 0.01773   
+0.0131348 0.0444017 0.0668853 
+
+Matrix W at layer 2 :
+0.106607 
+0.178302 
+0.100167 
+
+Matrix B at layer 2 :
+0.0113638 
+0.0113638 
+0.0113638 
+
+Matrix H at layer 2 :
+0.0207788 
+0.0157849 
+0.0273807 
+
+	*** Process Ends ***
+
+		*** COST OF THE FUNCTION ***
+	*** Process Begins ***
+Cost of the Function = 0.542813
+*** COST OF FUNCTION IS CALCULATED ***
+	*** Process Ends ***
+
+		*** BACK PROPAGATION ***
+		*** WEIGHT AND BIAS UPDATING ***
+	*** Process Begins ***
+	Update Bias at layer: 2
+ Bias[2][0][0] = 0.0224051	
+	Update Weight at layer: 2
+ Weights[2][0][0] = 0.106958	
+ Weights[2][1][0] = 0.179484	
+ Weights[2][2][0] = 0.101941	
+	Update Bias at layer: 1
+ Bias[1][0][0] = 0.00238544	 Bias[1][0][1] = 0.00398339	 Bias[1][0][2] = 0.00222614	
+	Update Weight at layer: 1
+ Weights[1][0][0] = 0.0786444	 Weights[1][0][1] = 0.153	 Weights[1][0][2] = 0.189297	
+ Weights[1][1][0] = 0.0104425	 Weights[1][1][1] = 0.140878	 Weights[1][1][2] = 0.170071	
+ Weights[1][2][0] = 0.00656024	 Weights[1][2][1] = 0.0136612	 Weights[1][2][2] = 0.161063	
+	Update Bias at layer: 0
+ Bias[0][0][0] = 0.00121295	 Bias[0][0][1] = 0.000957345	 Bias[0][0][2] = 0.0004241	
+	Update Weight at layer: 0
+ Weights[0][0][0] = 0.109986	 Weights[0][0][1] = 0.158284	 Weights[0][0][2] = 0.0972862	
+ Weights[0][1][0] = 0.121146	 Weights[0][1][1] = 0.0493147	 Weights[0][1][2] = 0.0169364	
+		*** WEIGHTS AND BIAS ARE UPDATED ***
+	*** Process Ends ***
+
+		*****ITERATION: 3 *****
+
+		*** FORWARD PROPAGATION ***
+	*** Process Begins ***
+Matrix W at layer 0 :
+0.109986 0.158284  0.0972862 
+0.121146 0.0493147 0.0169364 
+
+Matrix B at layer 0 :
+0.00121295 0.000957345 0.0004241 
+0.00121295 0.000957345 0.0004241 
+0.00121295 0.000957345 0.0004241 
+
+Matrix H at layer 0 :
+0.122358  0.0502721 0.0173605 
+0.0326375 0.0461812 0.0282201 
+0.141485  0.17157   0.101944  
+
+Matrix W at layer 1 :
+0.0786444  0.153     0.189297 
+0.0104425  0.140878  0.170071 
+0.00656024 0.0136612 0.161063 
+
+Matrix B at layer 1 :
+0.00238544 0.00398339 0.00222614 
+0.00238544 0.00398339 0.00222614 
+0.00238544 0.00398339 0.00222614 
+
+Matrix H at layer 1 :
+0.0126471  0.0300237 0.0367341 
+0.00561958 0.0158684 0.0208036 
+0.0159729  0.0511938 0.0746074 
+
+Matrix W at layer 2 :
+0.106958 
+0.179484 
+0.101941 
+
+Matrix B at layer 2 :
+0.0224051 
+0.0224051 
+0.0224051 
+
+Matrix H at layer 2 :
+0.0328912 
+0.027975  
+0.0409075 
+
+	*** Process Ends ***
+
+		*** COST OF THE FUNCTION ***
+	*** Process Begins ***
+Cost of the Function = 0.5256
+*** COST OF FUNCTION IS CALCULATED ***
+	*** Process Ends ***
+
+		*** BACK PROPAGATION ***
+		*** WEIGHT AND BIAS UPDATING ***
+	*** Process Begins ***
+	Update Bias at layer: 2
+ Bias[2][0][0] = 0.033131	
+	Update Weight at layer: 2
+ Weights[2][0][0] = 0.107381	
+ Weights[2][1][0] = 0.18083	
+ Weights[2][2][0] = 0.103887	
+	Update Bias at layer: 1
+ Bias[1][0][0] = 0.00353266	 Bias[1][0][1] = 0.00590853	 Bias[1][0][2] = 0.00331955	
+	Update Weight at layer: 1
+ Weights[1][0][0] = 0.079028	 Weights[1][0][1] = 0.153644	 Weights[1][0][2] = 0.189662	
+ Weights[1][1][0] = 0.0109226	 Weights[1][1][1] = 0.141684	 Weights[1][1][2] = 0.170529	
+ Weights[1][2][0] = 0.00684739	 Weights[1][2][1] = 0.0141431	 Weights[1][2][2] = 0.161337	
+	Update Bias at layer: 0
+ Bias[0][0][0] = 0.00180469	 Bias[0][0][1] = 0.00142649	 Bias[0][0][2] = 0.000634034	
+	Update Weight at layer: 0
+ Weights[0][0][0] = 0.125567	 Weights[0][0][1] = 0.170637	 Weights[0][0][2] = 0.102814	
+ Weights[0][1][0] = 0.124062	 Weights[0][1][1] = 0.051627	 Weights[0][1][2] = 0.0179711	
+		*** WEIGHTS AND BIAS ARE UPDATED ***
+	*** Process Ends ***
+
+		*****ITERATION: 4 *****
+
+		*** FORWARD PROPAGATION ***
+	*** Process Begins ***
+Matrix W at layer 0 :
+0.125567 0.170637 0.102814  
+0.124062 0.051627 0.0179711 
+
+Matrix B at layer 0 :
+0.00180469 0.00142649 0.000634034 
+0.00180469 0.00142649 0.000634034 
+0.00180469 0.00142649 0.000634034 
+
+Matrix H at layer 0 :
+0.125867 0.0530535 0.0186051 
+0.037681 0.0501798 0.0300094 
+0.158387 0.18497   0.107941  
+
+Matrix W at layer 1 :
+0.079028   0.153644  0.189662 
+0.0109226  0.141684  0.170529 
+0.00684739 0.0141431 0.161337 
+
+Matrix B at layer 1 :
+0.00353266 0.00590853 0.00331955 
+0.00353266 0.00590853 0.00331955 
+0.00353266 0.00590853 0.00331955 
+
+Matrix H at layer 1 :
+0.0141865 0.0330272 0.0392406 
+0.0072641 0.0192321 0.0238649 
+0.0188092 0.0579777 0.0823171 
+
+Matrix W at layer 2 :
+0.107381 
+0.18083  
+0.103887 
+
+Matrix B at layer 2 :
+0.033131 
+0.033131 
+0.033131 
+
+Matrix H at layer 2 :
+0.0447033 
+0.039868  
+0.0541865 
+
+	*** Process Ends ***
+
+		*** COST OF THE FUNCTION ***
+	*** Process Begins ***
+Cost of the Function = 0.509189
+*** COST OF FUNCTION IS CALCULATED ***
+	*** Process Ends ***
+
+		*** BACK PROPAGATION ***
+		*** WEIGHT AND BIAS UPDATING ***
+	*** Process Begins ***
+	Update Bias at layer: 2
+ Bias[2][0][0] = 0.0435488	
+	Update Weight at layer: 2
+ Weights[2][0][0] = 0.107874	
+ Weights[2][1][0] = 0.182331	
+ Weights[2][2][0] = 0.105998	
+	Update Bias at layer: 1
+ Bias[1][0][0] = 0.00465134	 Bias[1][0][1] = 0.00779236	 Bias[1][0][2] = 0.00440182	
+	Update Weight at layer: 1
+ Weights[1][0][0] = 0.0794504	 Weights[1][0][1] = 0.154355	 Weights[1][0][2] = 0.190071	
+ Weights[1][1][0] = 0.0114329	 Weights[1][1][1] = 0.142543	 Weights[1][1][2] = 0.171023	
+ Weights[1][2][0] = 0.00714734	 Weights[1][2][1] = 0.0146482	 Weights[1][2][2] = 0.161627	
+	Update Bias at layer: 0
+ Bias[0][0][0] = 0.00238781	 Bias[0][0][1] = 0.00189018	 Bias[0][0][2] = 0.000842948	
+	Update Weight at layer: 0
+ Weights[0][0][0] = 0.141056	 Weights[0][0][1] = 0.182954	 Weights[0][0][2] = 0.108363	
+ Weights[0][1][0] = 0.126885	 Weights[0][1][1] = 0.0538716	 Weights[0][1][2] = 0.0189824	
+		*** WEIGHTS AND BIAS ARE UPDATED ***
+	*** Process Ends ***
+
+		*****ITERATION: 5 *****
+
+		*** FORWARD PROPAGATION ***
+	*** Process Begins ***
+Matrix W at layer 0 :
+0.141056 0.182954  0.108363  
+0.126885 0.0538716 0.0189824 
+
+Matrix B at layer 0 :
+0.00238781 0.00189018 0.000842948 
+0.00238781 0.00189018 0.000842948 
+0.00238781 0.00189018 0.000842948 
+
+Matrix H at layer 0 :
+0.129273  0.0557618 0.0198253 
+0.0426896 0.0541626 0.0318039 
+0.175165  0.198312  0.113952  
+
+Matrix W at layer 1 :
+0.0794504  0.154355  0.190071 
+0.0114329  0.142543  0.171023 
+0.00714734 0.0146482 0.161627 
+
+Matrix B at layer 1 :
+0.00465134 0.00779236 0.00440182 
+0.00465134 0.00779236 0.00440182 
+0.00465134 0.00779236 0.00440182 
+
+Matrix H at layer 1 :
+0.0157013 0.0359851 0.0417136 
+0.0088896 0.0225681 0.0269193 
+0.02165   0.0647673 0.0900291 
+
+Matrix W at layer 2 :
+0.107874 
+0.182331 
+0.105998 
+
+Matrix B at layer 2 :
+0.0435488 
+0.0435488 
+0.0435488 
+
+Matrix H at layer 2 :
+0.0562253 
+0.051476  
+0.0672362 
+
+	*** Process Ends ***
+
+		*** COST OF THE FUNCTION ***
+	*** Process Begins ***
+Cost of the Function = 0.493528
+*** COST OF FUNCTION IS CALCULATED ***
+	*** Process Ends ***
+
+		*** BACK PROPAGATION ***
+		*** WEIGHT AND BIAS UPDATING ***
+	*** Process Begins ***
+	Update Bias at layer: 2
+ Bias[2][0][0] = 0.053665	
+	Update Weight at layer: 2
+ Weights[2][0][0] = 0.108431	
+ Weights[2][1][0] = 0.183981	
+ Weights[2][2][0] = 0.108266	
+	Update Bias at layer: 1
+ Bias[1][0][0] = 0.00574261	 Bias[1][0][1] = 0.00963688	 Bias[1][0][2] = 0.00547412	
+	Update Weight at layer: 1
+ Weights[1][0][0] = 0.0799103	 Weights[1][0][1] = 0.155133	 Weights[1][0][2] = 0.190523	
+ Weights[1][1][0] = 0.0119726	 Weights[1][1][1] = 0.143456	 Weights[1][1][2] = 0.171553	
+ Weights[1][2][0] = 0.00745992	 Weights[1][2][1] = 0.0151765	 Weights[1][2][2] = 0.161934	
+	Update Bias at layer: 0
+ Bias[0][0][0] = 0.00296303	 Bias[0][0][1] = 0.00234897	 Bias[0][0][2] = 0.00105108	
+	Update Weight at layer: 0
+ Weights[0][0][0] = 0.156474	 Weights[0][0][1] = 0.195251	 Weights[0][0][2] = 0.113942	
+ Weights[0][1][0] = 0.129617	 Weights[0][1][1] = 0.0560505	 Weights[0][1][2] = 0.0199709	
+		*** WEIGHTS AND BIAS ARE UPDATED ***
+	*** Process Ends ***
+
+		****************************************
+		***** LEARNING PROCESS IS FINISHED *****
+		****************************************
+Weights[0][0][0]= 0.156474	Weights[0][0][1]= 0.195251	Weights[0][0][2]= 0.113942	
+Weights[0][1][0]= 0.129617	Weights[0][1][1]= 0.0560505	Weights[0][1][2]= 0.0199709	
+Weights[1][0][0]= 0.0799103	Weights[1][0][1]= 0.155133	Weights[1][0][2]= 0.190523	
+Weights[1][1][0]= 0.0119726	Weights[1][1][1]= 0.143456	Weights[1][1][2]= 0.171553	
+Weights[1][2][0]= 0.00745992	Weights[1][2][1]= 0.0151765	Weights[1][2][2]= 0.161934	
+Weights[2][0][0]= 0.108431	
+Weights[2][1][0]= 0.183981	
+Weights[2][2][0]= 0.108266	
+Bias[0][0][0]= 0.00296303	Bias[0][0][1]= 0.00234897	Bias[0][0][2]= 0.00105108	
+Bias[1][0][0]= 0.00574261	Bias[1][0][1]= 0.00963688	Bias[1][0][2]= 0.00547412	
+Bias[2][0][0]= 0.053665	

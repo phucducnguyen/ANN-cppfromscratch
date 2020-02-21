@@ -1,0 +1,10 @@
+input_trainingfileName: trainingdata_input.txt
+output_trainingfileName: trainingdata_output.txt
+NumOfIter 5
+LearningRate 0.025
+NumOfInputs 2 
+NumOfOutputs 1
+NumOfSamples 3
+NumOfHiddenLayers 2
+NumOfNeuronsPerHiddenLayer 3
+3

@@ -1,0 +1,93 @@
+		*** BUILDING INSTANCE STRUCTURE ***
+	*** Process Begins ***
+No of Iteration: 	0
+Learning Rate: 	0
+No of Inputs: 	2
+No of Outputs: 	1
+No of Samples: 	3
+No of HLayers: 	2
+HiddenLayer: 1 has 3 neuron(s) 
+HiddenLayer: 2 has 3 neuron(s) 
+		*** INSTANCE STRUCTURE CREATED ***
+	*** Process Ends ***
+
+		*** WEIGHT AND BIAS INSERTION ***
+	*** Process Begins ***
+Weights[0][0][0]= 0.156474	Weights[0][0][1]= 0.195251	Weights[0][0][2]= 0.113942	
+Weights[0][1][0]= 0.129617	Weights[0][1][1]= 0.0560505	Weights[0][1][2]= 0.0199709	
+Weights[1][0][0]= 0.0799103	Weights[1][0][1]= 0.155133	Weights[1][0][2]= 0.190523	
+Weights[1][1][0]= 0.0119726	Weights[1][1][1]= 0.143456	Weights[1][1][2]= 0.171553	
+Weights[1][2][0]= 0.00745992	Weights[1][2][1]= 0.0151765	Weights[1][2][2]= 0.161934	
+Weights[2][0][0]= 0.108431	
+Weights[2][1][0]= 0.183981	
+Weights[2][2][0]= 0.108266	
+		*** WEIGHTS ARE INSERTED ***
+Bias[0][0][0]= 0.00296303	Bias[0][0][1]= 0.00234897	Bias[0][0][2]= 0.00105108	
+Bias[1][0][0]= 0.00574261	Bias[1][0][1]= 0.00963688	Bias[1][0][2]= 0.00547412	
+Bias[2][0][0]= 0.053665	
+		*** BIAS ARE INSERTED ***
+	*** Process Ends ***
+
+		*** INPUT VALUES INSERTION ***
+	*** Process Begins ***
+Input:
+127 33.55  
+150 33.746 
+164 33.84  
+200 33.863 
+242 33.89  
+
+	*** Process Ends ***
+
+		*** FORWARD PROPAGATION ***
+	*** Process Begins ***
+Matrix W at layer 0 :
+0.156474 0.195251  0.113942  
+0.129617 0.0560505 0.0199709 
+
+Matrix B at layer 0 :
+0.00296303 0.00234897 0.00105108 
+0.00296303 0.00234897 0.00105108 
+0.00296303 0.00234897 0.00105108 
+
+Matrix H at layer 0 :
+0.00296303 0.00234897 0.00105108 
+0.187833   0.161603   0.0853774  
+0.289054   0.25365    0.134964   
+
+Matrix W at layer 1 :
+0.0799103  0.155133  0.190523 
+0.0119726  0.143456  0.171553 
+0.00745992 0.0151765 0.161934 
+
+Matrix B at layer 1 :
+0.00574261 0.00963688 0.00547412 
+0.00574261 0.00963688 0.00547412 
+0.00574261 0.00963688 0.00547412 
+
+Matrix H at layer 1 :
+0.00601535 0.0104495 0.00661182 
+0.0233241  0.0632547 0.0828097  
+0.0328847  0.0929147 0.125915   
+
+Matrix W at layer 2 :
+0.108431 
+0.183981 
+0.108266 
+
+Matrix B at layer 2 :
+0.053665 
+0.053665 
+0.053665 
+
+Matrix H at layer 2 :
+0.0569556 
+0.0767972 
+0.0879576 
+
+	*** Process Ends ***
+Output value(s) after Denormalization:
+76.0252 
+76.3823 
+76.5832 
+

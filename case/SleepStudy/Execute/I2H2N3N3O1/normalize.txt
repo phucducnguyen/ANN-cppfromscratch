@@ -1,0 +1,10 @@
+Input:
+MinVector:
+3	1	
+MaxVector:
+10	5	
+Output:
+MinVector:
+75	
+MaxVector:
+93	

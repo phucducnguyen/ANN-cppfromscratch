@@ -1,0 +1,5 @@
+Iteration 1 error: 0.560885
+Iteration 2 error: 0.542813
+Iteration 3 error: 0.5256
+Iteration 4 error: 0.509189
+Iteration 5 error: 0.493528
